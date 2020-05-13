@@ -1,1 +1,2 @@
 # openMPI
+test
