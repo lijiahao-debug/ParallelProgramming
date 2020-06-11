@@ -2,3 +2,4 @@
 *.json
 /build
 *.o
+test.c
