@@ -3,3 +3,6 @@
 /build
 *.o
 test.c
+*.a
+*.so
+*.exe
