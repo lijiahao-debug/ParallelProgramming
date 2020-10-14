@@ -1,6 +1,8 @@
 ### ve offloading 使用，
 简单来说需要将执行在ve上的代码生成静态或者动态库，然后在代码中进行调用
 
+基本数据类型参数通过结构体传递，非基本型和引用类型参数放在一个stack上
+
 `gcc -save-temps hello.c -o hello`  输出所有中间文件  
 
 `gcc -E hello.c -o hello.i` 预编译过程，将头文件代码加入
